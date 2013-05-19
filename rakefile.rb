@@ -12,7 +12,7 @@ TC_LOGGER_ENV_KEY  = 'logger'
 TC_LOGGER  = "\"FileLogger,Microsoft.Build.Engine;logfile=MyLog.log\""
 NUNIT_LAUNCHER_PARAMS = "v2.0 x86 NUnit-2.5.5"
 DIRS_TO_PACKAGE = {}
-
+require File.dirname(__FILE__) + '/build/nunit_test.rb'
 
 
 
