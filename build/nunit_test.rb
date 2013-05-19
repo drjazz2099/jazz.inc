@@ -272,9 +272,9 @@ end
 
 def run_tests(test_assemblies)
 	test_assemblies_arg = test_assemblies.join ' '
-	puts "C:\\buildAgent\\plugins\\dotnetPlugin\bin\\JetBrains.BuildServer.NUnitLauncher.exe ANY MSIL NUnit-2.5.5   #{test_assemblies_arg}  "
+	puts "C:\\buildAgent\\plugins\\dotnetPlugin\\bin\\JetBrains.BuildServer.NUnitLauncher.exe ANY MSIL NUnit-2.5.5   #{test_assemblies_arg}  "
 	begin
-
+		sh "cd #{File.dirname(__FILE__)}"
 		sh "C:\\buildAgent\\plugins\\dotnetPlugin\\bin\\JetBrains.BuildServer.NUnitLauncher.exe ANY MSIL NUnit-2.5.5  #{test_assemblies_arg} "
   	rescue
 	    puts "Delete failed, ignoring. Probably first time deployment"
