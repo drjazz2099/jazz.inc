@@ -3,11 +3,11 @@ require File.expand_path("#{File.dirname(__FILE__)}/lib/build_type.rb")
 require File.expand_path("#{File.dirname(__FILE__)}/lib/assembly_finder.rb")
 
 TC_NUNIT_ENV_KEY  = 'nunitlauncher'
-NUNIT_LAUNCHER = "FileLogger,Microsoft.Build.Engine;logfile=MyLog.log"
+NUNIT_LAUNCHER = ENV[TC_NUNIT_ENV_KEY]
 
 TC_NUNIT_LAUNCHER = ENV[TC_NUNIT_ENV_KEY]
 TC_LOGGER_ENV_KEY  = 'logger'
-TC_LOGGER = ENV[TC_LOGGER_ENV_KEY]
+TC_LOGGER = "FileLogger,Microsoft.Build.Engine;logfile=MyLog.log"
 
 NUNIT_LAUNCHER_PARAMS = "v2.0 x86 NUnit-2.5.5"
 

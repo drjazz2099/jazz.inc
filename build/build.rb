@@ -2,7 +2,7 @@ require 'albacore'
 require File.expand_path("#{File.dirname(__FILE__)}/lib/build_type.rb")
 
 TC_LOGGER_ENV_KEY  = 'logger'
-TC_LOGGER = ENV[TC_LOGGER_ENV_KEY]
+TC_LOGGER = "FileLogger,Microsoft.Build.Engine;logfile=MyLog.log"
 
 desc "Build solution"
 msbuild :build_solution, :warnings_as_errors do |msb, args|
