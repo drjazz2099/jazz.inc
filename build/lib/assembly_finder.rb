@@ -11,7 +11,7 @@ class AssemblyFinder
 		@solution = solution
 		puts "solution = #{@solution}"
 
-		assemblies = Dir["**/#{solution}*"].find_all {|item| item =~ /\/#{solution}.*.(?:dll|exe)$/ }
+		assemblies = Dir["**/*"].find_all {|item| item =~ /.*.(?:dll|exe)$/ }
 		assemblies = assemblies.delete_if {|item| item =~ /(?:XmlSerializers.dll$)/}
 		assemblies = assemblies.delete_if {|item| item =~ /\/obj/}
 		
@@ -22,7 +22,11 @@ class AssemblyFinder
 	end
 	
 	def get_test_assemblies(test_type)
-		result = all_assemblies.find_all {|item| item =~ /(:?.#{test_type}).dll$/}
+		result = all_assemblies.find_all {|item| item =~ /(:?.#{test_type}).Tests.dll$/}
+		result2 = Dir["*"]
+		
+		
+		
 		puts "#{test_type} test assemblies for solution #{@solution} =>"
 		puts result.empty? ? "==NONE FOUND==" : result
 		raise "No test assemblies found!" if result.empty?
