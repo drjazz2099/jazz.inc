@@ -5,3 +5,12 @@ C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.
 C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache
 C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
 C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.dll.config
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.dll
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.pdb
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.dll
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\TechTalk.SpecFlow.dll
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.xml
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb

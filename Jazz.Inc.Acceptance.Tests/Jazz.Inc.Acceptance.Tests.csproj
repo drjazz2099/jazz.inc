@@ -40,10 +40,37 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\..\..\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicSpecs.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BasicSpecs.feature</DependentUpon>
+    </Compile>
+    <Compile Include="BasicSpecsSteps.cs" />
+    <Compile Include="SearchingGoogle.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchingGoogle.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SearchingGoogleSteps.cs" />
     <Compile Include="Specs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="BasicSpecs.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BasicSpecs.feature.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="SearchingGoogle.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SearchingGoogle.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
