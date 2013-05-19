@@ -1,0 +1,7 @@
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.dll
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.pdb
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.dll
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.xml
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
+C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
