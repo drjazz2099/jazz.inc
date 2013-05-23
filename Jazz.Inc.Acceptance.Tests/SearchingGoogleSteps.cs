@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Threading;
+using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.IE;
 using TechTalk.SpecFlow;
 
 namespace Jazz.Inc.Acceptance.Tests
@@ -6,22 +11,41 @@ namespace Jazz.Inc.Acceptance.Tests
     [Binding]
     public class SearchingGoogleSteps
     {
-        [Given(@"I have entered (.*) into the calculator")]
-        public void GivenIHaveEnteredIntoTheCalculator(int p0)
+
+        private ChromeDriver _driver;
+
+        [BeforeScenario("chrome")]
+        public void BeforeEachTest()
         {
-            ScenarioContext.Current.Pending();
+            _driver = new ChromeDriver();
         }
-        
-        [When(@"I press add")]
-        public void WhenIPressAdd()
+        [AfterScenario("chrome")]
+        public void AfterEachTest()
         {
-            ScenarioContext.Current.Pending();
+            _driver.Quit();
         }
-        
-        [Then(@"the result should be (.*) on the screen")]
-        public void ThenTheResultShouldBeOnTheScreen(int p0)
+
+        [Given(@"I am on ""(.*)""")]
+        public void GivenIAmOn(string websiteName)
         {
-            ScenarioContext.Current.Pending();
+            _driver.Navigate().GoToUrl(websiteName);
+
         }
+
+        [When(@"I search for ""(.*)""")]
+        public void WhenISearchFor(string searchTerm)
+        {
+            IWebElement query = _driver.FindElement(By.Name("q"));
+            query.SendKeys(searchTerm);
+            query.Submit();
+        }
+
+        [Then(@"the results from the search should contain ""(.*)""")]
+        public void ThenTheResultsFromTheSearchShouldContain(string expectedResult)
+        {
+            Thread.Sleep(1000);
+            Assert.That(_driver.PageSource.Contains(expectedResult));
+        }
+
     }
 }

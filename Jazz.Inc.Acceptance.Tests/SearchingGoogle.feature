@@ -3,9 +3,9 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-@mytag
-Scenario: Add two numbers
-	Given I have entered 50 into the calculator
-	And I have entered 70 into the calculator
-	When I press add
-	Then the result should be 120 on the screen
+@chrome
+Scenario: Searching Google
+	Given I am on "http://www.google.co.uk"
+	When I search for "ERNI"
+	Then the results from the search should contain "ERNI"
+

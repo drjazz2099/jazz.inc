@@ -43,6 +43,9 @@
     <Reference Include="TechTalk.SpecFlow">
       <HintPath>..\..\..\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>..\lib\WebDriver.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicSpecs.feature.cs">
@@ -50,7 +53,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BasicSpecs.feature</DependentUpon>
     </Compile>
-    <Compile Include="BasicSpecsSteps.cs" />
+    <Compile Include="JazzIncSteps.cs" />
     <Compile Include="SearchingGoogle.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -71,6 +74,14 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SearchingGoogle.feature.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chromedriver.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IEDriverServer.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

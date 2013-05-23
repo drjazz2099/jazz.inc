@@ -1,0 +1,70 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\chromedriver.exe
+[1.230][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[1.231][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[1.954][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
+[1.960][FINE]:      Command received (/session/c2515f9616c0b56d95b02e1425ba3c25)
+[1.960][FINE]:      Command finished (/session/c2515f9616c0b56d95b02e1425ba3c25) with response {
+   "sessionId": "c2515f9616c0b56d95b02e1425ba3c25",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.64",
+      "webStorageEnabled": true
+   }
+}
+
+[2.317][FINE]:      Command received (/session/c2515f9616c0b56d95b02e1425ba3c25/url) with params {
+   "url": "http://localhost"
+}
+
+[2.317][FINER]:     Waiting for all views to stop loading...
+[2.317][FINER]:     Done waiting for all views to stop loading
+[2.504][FINER]:     Waiting for all views to stop loading...
+[2.510][FINER]:     Done waiting for all views to stop loading
+[2.510][FINE]:      Command finished (/session/c2515f9616c0b56d95b02e1425ba3c25/url) with response {
+   "sessionId": "c2515f9616c0b56d95b02e1425ba3c25",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.513][FINE]:      Command received (/session/c2515f9616c0b56d95b02e1425ba3c25/source)
+[3.513][FINER]:     Waiting for all views to stop loading...
+[3.514][FINER]:     Done waiting for all views to stop loading
+[3.522][FINER]:     Waiting for all views to stop loading...
+[3.522][FINER]:     Done waiting for all views to stop loading
+[3.522][FINE]:      Command finished (/session/c2515f9616c0b56d95b02e1425ba3c25/source) with response {
+   "sessionId": "c2515f9616c0b56d95b02e1425ba3c25",
+   "status": 0,
+   "value": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\"en\" class=\" js no-flexbox flexbox-legacy canvas canvastext webgl no-to..."
+}
+
+[3.525][FINE]:      Command received (/session/c2515f9616c0b56d95b02e1425ba3c25)
+[3.791][INFO]:      Chrome shutdown
