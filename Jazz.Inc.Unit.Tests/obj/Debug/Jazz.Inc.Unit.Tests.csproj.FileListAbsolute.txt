@@ -3,5 +3,4 @@ C:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\bin\Debug\Jazz.Inc.Unit.Tests.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\obj\Debug\Jazz.Inc.Unit.Tests.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\obj\Debug\Jazz.Inc.Unit.Tests.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\bin\Debug\nunit.framework.dll
-C:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\bin\Debug\nunit.framework.xml
 C:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\obj\Debug\Jazz.Inc.Unit.Tests.csprojResolveAssemblyReference.cache

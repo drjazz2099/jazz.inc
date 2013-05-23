@@ -10,7 +10,6 @@ C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.d
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\TechTalk.SpecFlow.dll
-C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.xml
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
