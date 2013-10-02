@@ -2,6 +2,7 @@
 using System.Threading;
 using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.IE;
 using TechTalk.SpecFlow;
 
 namespace Jazz.Inc.Acceptance.Tests
@@ -9,12 +10,12 @@ namespace Jazz.Inc.Acceptance.Tests
     [Binding]
     public class JazzIncSteps
     {
-        private ChromeDriver _driver;
+        private InternetExplorerDriver _driver;
 
         [BeforeScenario("jazz")]
         public void BeforeEachTest()
         {
-            _driver = new ChromeDriver();
+            _driver = new InternetExplorerDriver();
         }
         [AfterScenario("jazz")]
         public void AfterEachTest()

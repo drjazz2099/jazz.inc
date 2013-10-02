@@ -1,5 +1,5 @@
-[0.002][INFO]:      ChromeDriver 23.0.1240.0 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\chromedriver.exe
-[1.815][FINE]:      Initializing session with capabilities {
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\chromedriver.exe
+[1.705][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [  ],
    "chromeOptions": {
@@ -12,11 +12,11 @@
    "version": ""
 }
 
-[1.816][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
-[3.357][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
-[3.376][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d)
-[3.377][FINE]:      Command finished (/session/95f849c398ad3fc33811be03a4eb5a9d) with response {
-   "sessionId": "95f849c398ad3fc33811be03a4eb5a9d",
+[1.706][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[2.365][INFO]:      Connected to Chrome successfully. Version: 29.0.1547.76
+[2.382][FINE]:      Command received (/session/28f53bd306ac4c1bd7c2bee47804fbeb)
+[2.383][FINE]:      Command finished (/session/28f53bd306ac4c1bd7c2bee47804fbeb) with response {
+   "sessionId": "28f53bd306ac4c1bd7c2bee47804fbeb",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -34,81 +34,19 @@
       "platform": "windows",
       "rotatable": false,
       "takesScreenshot": true,
-      "version": "26.0.1410.64",
+      "version": "29.0.1547.76",
       "webStorageEnabled": true
    }
 }
 
-[3.875][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d/url) with params {
-   "url": "http://www.google.co.uk"
+[2.880][FINE]:      Command received (/session/28f53bd306ac4c1bd7c2bee47804fbeb/url) with params {
+   "url": "http://localhost"
 }
 
-[3.875][FINER]:     Waiting for all views to stop loading...
-[3.879][FINER]:     Done waiting for all views to stop loading
-[4.606][FINER]:     Waiting for all views to stop loading...
-[4.606][FINER]:     Done waiting for all views to stop loading
-[4.606][FINE]:      Command finished (/session/95f849c398ad3fc33811be03a4eb5a9d/url) with response {
-   "sessionId": "95f849c398ad3fc33811be03a4eb5a9d",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[4.620][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d/element) with params {
-   "using": "name",
-   "value": "q"
-}
-
-[4.620][FINER]:     Waiting for all views to stop loading...
-[4.621][FINER]:     Done waiting for all views to stop loading
-[4.950][FINER]:     Waiting for all views to stop loading...
-[4.951][FINER]:     Done waiting for all views to stop loading
-[4.951][FINE]:      Command finished (/session/95f849c398ad3fc33811be03a4eb5a9d/element) with response {
-   "sessionId": "95f849c398ad3fc33811be03a4eb5a9d",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1369320757681"
-   }
-}
-
-[6.360][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d/element/:wdc:1369320757681/value) with params {
-   "value": [ "E", "R", "N", "I" ]
-}
-
-[6.360][FINER]:     Waiting for all views to stop loading...
-[6.363][FINER]:     Done waiting for all views to stop loading
-[6.659][FINER]:     Waiting for all views to stop loading...
-[6.659][FINER]:     Done waiting for all views to stop loading
-[6.659][FINE]:      Command finished (/session/95f849c398ad3fc33811be03a4eb5a9d/element/:wdc:1369320757681/value) with response {
-   "sessionId": "95f849c398ad3fc33811be03a4eb5a9d",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[6.660][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d/element/:wdc:1369320757681/submit)
-[6.660][FINER]:     Waiting for all views to stop loading...
-[6.660][FINER]:     Done waiting for all views to stop loading
-[6.749][FINER]:     Waiting for all views to stop loading...
-[6.749][FINER]:     Done waiting for all views to stop loading
-[6.749][FINE]:      Command finished (/session/95f849c398ad3fc33811be03a4eb5a9d/element/:wdc:1369320757681/submit) with response {
-   "sessionId": "95f849c398ad3fc33811be03a4eb5a9d",
-   "status": 0,
-   "value": null
-}
-
-[7.761][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d/source)
-[7.761][FINER]:     Waiting for all views to stop loading...
-[7.761][FINER]:     Done waiting for all views to stop loading
-[7.884][FINER]:     Waiting for all views to stop loading...
-[7.884][FINER]:     Done waiting for all views to stop loading
-[7.885][FINE]:      Command finished (/session/95f849c398ad3fc33811be03a4eb5a9d/source) with response {
-   "sessionId": "95f849c398ad3fc33811be03a4eb5a9d",
-   "status": 0,
-   "value": "\u003C!DOCTYPE html\u003E\u003Chtml itemscope=\"itemscope\" itemtype=\"http://schema.org/WebPage\"\u003E\u003Chead\u003E\u003Cmeta itemp..."
-}
-
-[7.942][FINE]:      Command received (/session/95f849c398ad3fc33811be03a4eb5a9d)
-[8.390][INFO]:      Chrome shutdown
+[2.880][FINER]:     Waiting for all views to stop loading...
+[2.884][FINER]:     Done waiting for all views to stop loading
+[3.915][FINE]:      Command received (/session/28f53bd306ac4c1bd7c2bee47804fbeb/source)
+[3.915][FINER]:     Waiting for all views to stop loading...
+[3.916][FINER]:     Done waiting for all views to stop loading
+[3.947][FINE]:      Command received (/session/28f53bd306ac4c1bd7c2bee47804fbeb)
+[4.091][INFO]:      Chrome shutdown

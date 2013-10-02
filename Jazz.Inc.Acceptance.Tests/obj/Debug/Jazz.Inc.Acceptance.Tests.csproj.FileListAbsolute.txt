@@ -5,18 +5,17 @@ C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.
 C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache
 C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
 C:\Users\jas\documents\visual studio 2012\Projects\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\chromedriver.exe
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\IEDriverServer.exe
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.dll.config
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Jazz.Inc.Acceptance.Tests.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\nunit.framework.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\TechTalk.SpecFlow.dll
-C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache
-C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
-C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\WebDriver.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\Ionic.Zip.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\WebDriver.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\WebDriver.xml
-C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\chromedriver.exe
-C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\IEDriverServer.exe
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
