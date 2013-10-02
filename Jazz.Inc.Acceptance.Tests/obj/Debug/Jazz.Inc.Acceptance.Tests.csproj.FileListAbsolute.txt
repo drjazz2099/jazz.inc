@@ -19,3 +19,4 @@ C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\WebDriver.pdb
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\bin\Debug\WebDriver.xml
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.dll
 C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.pdb
+C:\Work\Jazz.Inc\Jazz.Inc.Acceptance.Tests\obj\Debug\Jazz.Inc.Acceptance.Tests.csprojResolveAssemblyReference.cache

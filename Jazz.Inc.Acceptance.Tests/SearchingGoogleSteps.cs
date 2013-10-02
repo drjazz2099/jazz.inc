@@ -12,12 +12,12 @@ namespace Jazz.Inc.Acceptance.Tests
     public class SearchingGoogleSteps
     {
 
-        private ChromeDriver _driver;
+        private InternetExplorerDriver _driver;
 
         [BeforeScenario("chrome")]
         public void BeforeEachTest()
         {
-            _driver = new ChromeDriver();
+            _driver = new InternetExplorerDriver();
         }
         [AfterScenario("chrome")]
         public void AfterEachTest()
