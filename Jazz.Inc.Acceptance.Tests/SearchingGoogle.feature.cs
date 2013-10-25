@@ -85,19 +85,19 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Searching Google for roche")]
+        [NUnit.Framework.DescriptionAttribute("test")]
         [NUnit.Framework.CategoryAttribute("chrome")]
-        public virtual void SearchingGoogleForRoche()
+        public virtual void Test()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Searching Google for roche", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("test", new string[] {
                         "chrome"});
-#line 13
-this.ScenarioSetup(scenarioInfo);
 #line 14
- testRunner.Given("I am on \"http://www.google.co.uk\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 15
- testRunner.When("I search for \"roche\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I am on \"http://www.google.co.uk\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 16
+ testRunner.When("I search for \"roche\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 17
  testRunner.Then("the results from the search should contain \"roche\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

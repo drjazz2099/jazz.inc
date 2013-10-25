@@ -1,0 +1,6 @@
+c:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\bin\Release\Jazz.Inc.Unit.Tests.dll
+c:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\bin\Release\Jazz.Inc.Unit.Tests.pdb
+c:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\bin\Release\nunit.framework.dll
+c:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\obj\Release\Jazz.Inc.Unit.Tests.csprojResolveAssemblyReference.cache
+c:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\obj\Release\Jazz.Inc.Unit.Tests.dll
+c:\Work\Jazz.Inc\Jazz.Inc.Unit.Tests\obj\Release\Jazz.Inc.Unit.Tests.pdb
