@@ -20,7 +20,7 @@ desc "Build"
 msbuild :build_solution do |msb|	
     require_logger
 	msb.configure("build/conf/msbuild.yml")
-	msb.properties = {:BuildType => :Release, :teamcity_projectName => "jazz.inc", :Configuration => :Release}
+	msb.properties = {:BuildType => :Release, :teamcity_projectName => "jazz.inc", :Configuration => :Release, :VisualStudioVersion => 12.0}
 	msb.targets [:Build]
 	msb.loggermodule = "#{TC_LOGGER}" if TC_LOGGER != nil
 	msb.solution = "#{SOLUTION}.sln"
